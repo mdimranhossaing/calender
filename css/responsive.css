@@ -1,0 +1,81 @@
+@media only screen and (max-width: 992px) {
+
+	/*HEADER START*/
+	.site-header {
+		height: 500px;
+	}
+	/*HEADER END*/
+
+}
+
+@media only screen and (max-width: 768px) {
+
+	/*HEADER START*/
+	.site-header {
+		height: 400px;
+	}
+	.page-header .logo {
+		width: 100%;
+		float: none;
+		text-align: center;
+	}
+	.page-header .title {
+		width: 100%;
+		float: none;
+		text-align: center;
+	}
+	.page-header .title h1 {
+		font-size: 1.4em;
+	}
+	.page-header .title p {
+		font-size: .9em;
+	}
+	/*HEADER END*/
+
+	/*PAGE CONTENT START*/
+	.page-middle hgroup h2 {
+		font-size: 1em;
+	}
+	.page-middle hgroup h4 {
+		font-size: .9em;
+	}
+	.calender-section {
+		background: #F0F1F4;
+	}
+	.calender-section .calender-1,
+	.calender-section .calender-2 {
+		width: 100%;
+		float: none;
+	}
+	.calender-section .year {
+		width: 100%;
+		float: none;
+		margin-bottom: 30px;
+	}
+	.calender-section .year img {
+		display: none;
+	}
+	/*PAGE CONTENT END*/
+
+	/*FOOTER START*/
+	.site-footer .widget {
+		padding: 30px 0;
+	}
+	.site-footer .widget .logo {
+		width: 100%;
+		float: none;
+		text-align: left;
+		margin-bottom: 30px;
+	}
+	.site-footer .widget .logo img {
+		width: 200px;
+	}
+	.site-footer .widget .address {
+		width: 100%;
+		float: none;
+		text-align: left;
+	}
+	/*FOOTER END*/
+
+}
+
